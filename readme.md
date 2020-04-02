@@ -17,7 +17,7 @@ See http://demo.geoportalgenie.com/ for a demo of GeoPortal Genie.
 
 ### [Installation](#installation)
 
-This installation guide explains the steps required to install and configure GeoPortal Genie on your system. This documentation is aimed at technically-literate users who are comfortable working in a web development environment. Please contact us if you have any questions while installing and configuring GeoPortal Genie on your system.
+This installation guide explains the steps required to install and configure GeoPortal Genie on your system. This documentation is aimed at technically-literate users who are comfortable working in a web development environment.
 
 The following diagram illustrates the relationship between GeoPortal Genie and Esri Geoportal Server:
 
@@ -25,7 +25,7 @@ The following diagram illustrates the relationship between GeoPortal Genie and E
 
 In summary, GeoPortal Genie is a front-end web application written in JavaScript and based on the Backbone.js framework. It interacts with Esri Geoportal Server’s REST API, using a proxy page as an intermediary. By default the index.HTML page uses the Bootstrap framework (although this is not a requirement). The index page uses require.js to simplify loading of all the scripts – only app.js is loaded in the index page, with the other scripts loaded dynamically, as they are required.
 
-We recommend that you start by testing GeoPortal Genie on your local web server, by unzipping the demo zip file into your web server directory. This document assumes that the demo is installed at http://localhost/GeoPortalGenie. (Please contact us if you need a copy of the demo files)
+We recommend that you start by testing GeoPortal Genie on your local web server, by unzipping git GitHub repo into your web server directory. This document assumes that the demo is installed at http://localhost/GeoPortalGenie.
 
 The demo configuration file uses Esri’s sandbox Geoportal Server at http://gptogc.esri.com and demonstrates the benefits which GeoPortal Genie delivers. (Please test this sample server to ensure it is running, before testing GeoPortal Genie, as this is a dependency on the demo site.)
 
